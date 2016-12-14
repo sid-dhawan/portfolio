@@ -1,0 +1,6 @@
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: sid-dhawan
+  name: sid-dhawan
+  memory: 64M
+  stack: cflinuxfs2
